@@ -5,6 +5,6 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('d3', 'client');
 
-  api.add_files('lib/d3plus.js', 'client');
-  api.add_files('lib/d3plus.css', 'client');
+  api.add_files('d3plus/d3plus.js', 'client');
+  api.add_files('d3plus/d3plus.css', 'client');
 });
