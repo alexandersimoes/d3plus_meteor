@@ -1,3 +1,5 @@
 [submodule "d3plus"]
 	path = d3plus
 	url = https://github.com/alexandersimoes/d3plus.git
+	fetchRecurseSubmodules = true
+	ignore = all
